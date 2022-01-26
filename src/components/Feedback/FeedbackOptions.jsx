@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FeedButtonWrap, FeedButtonGood } from './Feedback.styled';
 
-const FeedbackOptions = ({ options, onLeaveFeedback, style }) => {
+const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <FeedButtonWrap>
       {options.map(key => (
